@@ -485,7 +485,8 @@ namespace ATMexample
                 accountList[i] = null;
             }
             thankYouMessage.Visible = false;
-            EnterPin.Visible = true;
+            SignINScreen.Visible = true;
+            
 
             
 
@@ -632,6 +633,7 @@ namespace ATMexample
             {
                 EnterPin.Visible = false;
                 tableLayoutPanel7.Visible = true;
+                tableLayoutPanel2.Visible = false;
                 transType = "pinError";
                 label5.Text = "You have entered an invalid pin please restart process";
 

@@ -97,8 +97,8 @@ namespace ATMexample
             this.button38 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.thankYouMessage = new System.Windows.Forms.TableLayoutPanel();
-            this.button40 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
+            this.button40 = new System.Windows.Forms.Button();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.button41 = new System.Windows.Forms.Button();
@@ -1340,6 +1340,22 @@ namespace ATMexample
             this.thankYouMessage.TabIndex = 2;
             this.thankYouMessage.Visible = false;
             // 
+            // label12
+            // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
+            this.label12.Location = new System.Drawing.Point(3, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(792, 367);
+            this.label12.TabIndex = 0;
+            this.label12.Text = "Thank You. Come Again. ";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
             // button40
             // 
             this.button40.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1356,22 +1372,6 @@ namespace ATMexample
             this.button40.Text = "OKAY";
             this.button40.UseVisualStyleBackColor = false;
             this.button40.Click += new System.EventHandler(this.button40_Click);
-            // 
-            // label12
-            // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
-            this.label12.Location = new System.Drawing.Point(3, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(792, 367);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Thank You. Come Again. ";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // tableLayoutPanel13
             // 
@@ -1448,14 +1448,14 @@ namespace ATMexample
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.thankYouMessage);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.EnterPin);
             this.Controls.Add(this.SignINScreen);
             this.Controls.Add(this.tableLayoutPanel7);
             this.Controls.Add(this.tableLayoutPanel13);
-            this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel8);
-            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.signOutMessage);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
