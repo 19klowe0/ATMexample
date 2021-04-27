@@ -340,7 +340,7 @@ namespace ATMexample
                 id.updateBankMoney(transType, amount);
                 if (withdrawCode == 0)
                 {
-                    label5.Text = "Please take the money.\n Transaction numbaer: "
+                    label5.Text = "Please take the money.\n Transaction number: "
                         + selectedAccount.getNewTransaction().getTransNum() + "\n" + "Withdrawal amount: $"
                         + selectedAccount.getNewTransaction().getAmount() + "\n" + "From account: "
                         + selectedAccount.getAccountID();
