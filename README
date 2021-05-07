@@ -1,2 +1,5 @@
 # ATMexample
-This is not done and currently in progress for CSC 340
+Done for CSC 340 
+This is a GUI interface that simulates the functions of an ATM machine.
+The system uses an SQL database to hold account, customer, transaction, and bank information. 
+
